@@ -1,6 +1,7 @@
 # FireSharpedToDo_WPF
 
-Simple Materialized ToDoList in WPF
+Simple Materialized ToDoList in WPF.
+
 Just insert your Firebase AuthSecret and BasePath
 
 Based on:
