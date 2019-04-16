@@ -25,11 +25,7 @@ namespace ToDoFirebase_WPF
         public MainWindow()
         {
             InitializeComponent();
-
-            client = new FirebaseClient(config);
-            if (client != null) { MessageBox.Show("Connected!"); }
-            else { MessageBox.Show("Connection error!"); Application.Current.Shutdown(); }
-
+            
             ListenToStream();
         }
 
